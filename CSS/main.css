@@ -1,0 +1,253 @@
+body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/canal-6519196_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+   
+} 
+/* .bottom-container {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: 15%;
+    top: 20px;
+    float: center;
+    font-size: 100px;
+
+} */
+
+.first {
+    background-color:#9890e3;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #111;
+  }
+
+
+  /* title */
+.title {
+  /* position: absolute;
+  top: 50%; */
+  left: 50%;
+  /* text-align: center; */
+  margin-top: 30%;
+  top: 15px;
+    float: center;
+    font-size: 16px;
+    border: 4px solid #D2B4DE; 
+   
+}
+
+
+/* contact */
+  h1 {
+  margin: 0 0 20px;
+  font-weight: 400;
+  color:aliceblue;
+  }
+ 
+  form {
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5; 
+  }
+  
+  
+  
+   input, textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  } 
+
+  input::placeholder {
+  color: #666;
+  }
+
+  button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: steelblue;
+  font-size: 16px;
+  font-weight: 400;
+  color: azure;
+  }
+
+
+  /* button center */
+  .container { 
+    height: 100px;
+    position: relative;
+
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+  }
+  html, body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px; 
+  color: #666;
+  }
+  input, textarea { 
+  outline: none;
+  }
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #5a7233;
+  }
+  h1 {
+  margin-top: 0;
+  font-weight: 500;
+  }
+  form {
+  position: relative;
+  width: 80%;
+  border-radius: 30px;
+  background: #fff;
+  }
+  .form-left-decoration,
+  .form-right-decoration {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 20px;
+  background: #5a7233;
+  }
+  .form-left-decoration {
+  bottom: 60px;
+  left: -30px;
+  }
+  .form-right-decoration {
+  top: 60px;
+  right: -30px;
+  }
+  .form-left-decoration:before,
+  .form-left-decoration:after,
+  .form-right-decoration:before,
+  .form-right-decoration:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  border-radius: 30px;
+  background: #fff;
+  }
+  .form-left-decoration:before {
+  top: -20px;
+  }
+  .form-left-decoration:after {
+  top: 20px;
+  left: 10px;
+  }
+  .form-right-decoration:before {
+  top: -20px;
+  right: 0;
+  }
+  .form-right-decoration:after {
+  top: 20px;
+  right: 10px;
+  }
+  .circle {
+  position: absolute;
+  bottom: 80px;
+  left: -55px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  }
+  .form-inner {
+  padding: 40px;
+  }
+  .form-inner input,
+  .form-inner textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  background: #d0dfe8;
+  }
+  .form-inner textarea {
+  resize: none;
+  }
+  button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: none;
+  border-bottom: 4px solid #3e4f24;
+  background: #5a7233; 
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  }
+  button:hover {
+  background: #3e4f24;
+  } 
+  @media (min-width: 568px) {
+  form {
+  width: 60%;
+  }
+} */
+
